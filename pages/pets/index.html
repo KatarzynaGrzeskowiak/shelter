@@ -11,21 +11,21 @@
 <body>
 
     <header>
-        <div class="container">
+        <div class="header_container">
 
-            <a href="../main/index.html">
+            <a class="logo" href="../main/index.html">
                 <h1> Cozy House</h1>
                 <p>Shelter for pets in Boston</p>
             </a>
 
-            <nav>
-                <ul>
+            <nav class="header_nav">
+                <ul class="nav_list">
                     <li>
                         <a class="nav_link" href="../main/index.html">About the shelter</a> 
                     </li>
 
                     <li>
-                        <a class="nav_link active" href="../pets/index.html">Our pets</a>
+                        <a class="nav_link active" href="../pets/index.html" >Our pets</a>
                     </li>
 
                     <li>
@@ -39,66 +39,111 @@
             </nav>
         </div>
     </header>
+
     <main>
-        <div>
-            <section>
-                <h2>Our friends who<br/>are looking for a house</h2>
-                <ul>
-                    <li>
-                        <img />
-                        <h4></h4>
-                        <button>Learn more</button>
+        <div class="friends_container">
+            <section class="friends_section">
+                <h2 class="friends_title">Our friends who<br/>are looking for a house</h2>
+                <ul class="friends_list">
+                    <li class="friends_item">
+                        <img class="friends_img" src="../../assets/images/pets-katrine.png" alt="cat-Katrine foto" >
+                        <h4 class="friends_name">Katrine</h4>
+                        <button class="friends_button">Learn more</button>
                     </li>
-                    <li>
-                        <img />
-                        <h4></h4>
-                        <button>Learn more</button>
+                    <li class="friends_item">
+                        <img class="friends_img" src="../../assets/images/pets-jennifer.png" alt="dog-Jeniffer foto" >
+                        <h4 class="friends_name">Jeniffer</h4>
+                        <button class="friends_button">Learn more</button>
                     </li>
-                    <li>
-                        <img />
-                        <h4></h4>
-                        <button>Learn more</button>
+                    <li class="friends_item">
+                        <img class="friends_img" src="../../assets/images/pets-woody.png" alt="dog-Woody foto" >
+                        <h4 class="friends_name">Woody</h4>
+                        <button class="friends_button">Learn more</button>
                     </li>
-                    <li>
-                        <img />
-                        <h4></h4>
-                        <button>Learn more</button>
+                    <li class="friends_item">
+                        <img class="friends_img" src="../../assets/images/pets-sophia.png" alt="dog-Sopia foto" >
+                        <h4 class="friends_name">Sopia</h4>
+                        <button class="friends_button">Learn more</button>
                     </li>
-                    <li>
-                        <img />
-                        <h4></h4>
-                        <button>Learn more</button>
+                    <li class="friends_item">
+                        <img class="friends_img" src="../../assets/images/pets-timmy.png" alt="cat-Timmy foto" >
+                        <h4 class="friends_name">Timmy</h4>
+                        <button class="friends_button">Learn more</button>
                     </li>
-                    <li>
-                        <img />
-                        <h4></h4>
-                        <button>Learn more</button>
+                    <li class="friends_item">
+                        <img class="friends_img" src="../../assets/images/pets-charly.png" alt="dog-Charly foto" >
+                        <h4 class="friends_name">Charly</h4>
+                        <button class="friends_button">Learn more</button>
                     </li>
-                    <li>
-                        <img />
-                        <h4></h4>
-                        <button>Learn more</button>
+                    <li class="friends_item">
+                        <img class="friends_img" src="../../assets/images/pets-scarlet.png" alt="dog-Scarlet foto" >
+                        <h4 class="friends_name">Scarlet</h4>
+                        <button class="friends_button">Learn more</button>
                     </li>
-                    <li>
-                        <img />
-                        <h4></h4>
-                        <button>Learn more</button>
+                    <li class="friends_item">
+                        <img class="friends_img" src="../../assets/images/pets-freddie.png" alt="cat-Freddie foto">
+                        <h4 class="friends_name">Freddie</h4>
+                        <button class="friends_button">Learn more</button>
                     </li>
                 </ul>
                 <div>
 
                 </div>
             </section>
+            <div class="friend_paginator">
+                <button class="paginator_arrow paginator_inactive">
+                    <span>&lt;&lt;</span>
+                </button>
+
+                <button class="paginator_arrow paginator_inactive">
+                    <span>&lt;</span>
+                </button>
+
+                <button class="paginator_arrow paginator_active">
+                    <span>1</span>
+                </button>
+                <button class="paginator_arrow paginator">
+                    <span>&gt;</span>
+                </button>
+                <button class="paginator_arrow paginator">
+                    <span>&gt;&gt;</span>
+                </button>
+
+            </div>
         </div>
     </main>
 
     <footer id="footer">
         <div>
             <h3>For questions and suggestions</h3>
+            <a href="email@shelter.com" target="_blank">
+                <img src="../../assets/icons/mail.svg"
+                    alt="mail icon" />
+                <h4>email@shelter.com</h4>
+            </a>
+            <a href="+13 674 567 75 54">
+                <img src="../../assets/icons/phone.svg" alt="phone icon" />
+                <h4>+13 674 567 75 54</h4>
+            </a>
         </div>
         
         <div>
             <h3>We are waiting for your visit</h3>
+            <a href="https://www.google.com/maps?q=1+Central+Street,+Boston"
+                target="_blank">
+                <img src="../../assets/icons/pin.svg" alt="pin icon" />
+                <h4>Central Street, Boston<br />(entrance from the
+                store)</h4>
+            </a>
+
+            <a href="https://www.google.com/maps?q=18+South+Park+London"
+                target="_blank">
+                <img src="../../assets/icons/pin.svg" alt="pin icon" />
+                <h4>18 South Park, London</h4>
+            </a>
+        </div>
+        <div>
+            <img src="../../assets/images/footer-puppy.png" alt="footer puppy" />
         </div>
     </footer>
 
