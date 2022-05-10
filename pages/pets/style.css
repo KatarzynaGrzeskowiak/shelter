@@ -1,3 +1,7 @@
+a {
+    text-decoration: none;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -87,6 +91,17 @@ h2 {
     line-height: 32.5px;
 }
 
+h3{
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    font-weight: normal;
+    font-style: normal;
+    color: #545454;
+    margin: 0px;
+}
+
+
 .button {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -120,6 +135,51 @@ h2 {
 .button:hover {
     background: #FDDCC4;
     color: #292929;
+}
+
+footer{
+    /*background-color: #211F20;*/
+    background: linear-gradient(to right, #513D2F, #211F20,#1A1A1C );
+}
+
+
+.footer_contaier{
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 159px;
+    row-gap: 65px;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.footer_item{
+    row-gap: 40px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 43px;
+}
+
+.footer_title{
+    color: #FFFFFF;
+
+}
+
+.footer_img{
+    display: flex;
+    align-self: flex-end;
+}
+
+.footer_way{
+
+    display: inline;
+    column-gap: 20px;
+    color: #F1CDB3;
+    text-align: center;
+    align-items: center;
 }
 
 .friends{
