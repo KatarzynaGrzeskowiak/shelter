@@ -138,8 +138,7 @@ h3{
 }
 
 footer{
-    /*background-color: #211F20;*/
-    background: linear-gradient(to right, #513D2F, #211F20,#1A1A1C );
+    background-image: url("../../assets/images/noise.png"), linear-gradient(to right, #513D2F, #211F20, #1A1A1C);
 }
 
 
