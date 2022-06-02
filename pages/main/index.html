@@ -87,40 +87,50 @@
 
         <section class="pets">
             <div class="pets_container">
-                <h3 class="pets_heading">Our friends who<br/>are looking for a house</h3>
-                
-                <div class="pets_slider">
+                <div class="pets_innercontainer">
+                    <h3 class="pets_heading">Our friends who<br/>are looking for a house</h3>
+                    
+                    <div class="pets_slider">
 
-                    <button class="slider_button-arrow slider_button-arrow_left">
-                        <img src="./../../assets/icons/leftArrow.svg" alt="Left Arrow" />
-                    </button>
+                        <button class="slider_button-arrow">
+                            <img src="./../../assets/icons/leftArrow.svg" alt="Left Arrow" />
+                        </button>
 
-                    <div class="slider_cart-container">
-                        <div>
-                            <img class="slider__card-image" src="./../../assets/images/pets-katrine.png" alt="cat-Katrine foto">
-                            <h4>Katrine</h4>
-                        </div>
+                        <div class="slider_cart-container">
+                            <div class="card">
+                                <img class="slider__card-image" src="./../../assets/images/pets-katrine.png" alt="cat-Katrine foto">
+                                <div class="pets_info">
+                                    <h4 class="pets_name">Katrine</h4>
+                                    <button class="card_button">Learn more</button>
+                                </div>
+                            </div>
 
-                        <div>
-                            <img class="slider__card-image" src="./../../assets/images/pets-jennifer.png" alt="dog-Jennifer foto">
-                            <h4>Jennifer</h4>
-                        </div> 
+                            <div class="card">
+                                <img class="slider__card-image" src="./../../assets/images/pets-jennifer.png" alt="dog-Jennifer foto">
+                                <div class="pets_info">
+                                    <h4 class="pets_name">Jennifer</h4>
+                                    <button class="card_button">Learn more</button>
+                                </div>
+                            </div> 
 
-                        <div>
-                            <img class="slider__card-image" src="./../../assets/images/pets-woody.png" alt="dog-Woody foto">
-                            <h4>Woody</h4>
-                        </div>    
-                                
+                            <div class="card">
+                                <img class="slider__card-image" src="./../../assets/images/pets-woody.png" alt="dog-Woody foto">
+                                <div class="pets_info">
+                                    <h4 class="pets_name">Woody</h4>
+                                    <button class="card_button">Learn more</button>
+                                </div>
+                            </div>    
+                        </div>           
                         
+                        <button class="slider_button-arrow">
+                             <img src="./../../assets/icons/rightArrow.svg" alt="Right Arrow" />
+                        </button>
+                
                     </div>
 
-                    <button class="slider_button-arrow slider_button-arrow_right">
-                        <img src="./../../assets/icons/rightArrow.svg" alt="Right Arrow" />
-                    </button>
-                </div>
+                    <button class="pets_button" onclick="document.location='./../pets/index.html'" type="button">Get to know the rest</button>
 
-                <button>Get to know the rest</button>
-               
+                </div>
             </div>
         </section>
 
