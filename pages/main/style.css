@@ -52,10 +52,7 @@ header a.nav_link {
     text-decoration: none;
 }
 
-p,
-header a.nav_link:hover {
-    color: var(--dark-3xl);
-}
+
 
 header p {
     color: #545454;
@@ -480,6 +477,11 @@ h4{
     height: 43px;
 }
 
+.donation_text{
+
+    color: #B2B2B2;
+}
+
 
 footer{
     background-image: url("../../assets/images/noise.png"), linear-gradient(to right, #513D2F, #211F20, #1A1A1C);
@@ -487,23 +489,22 @@ footer{
 
 
 .footer_contaier{
-    padding-top: 40px;
+    padding:40px 40px 0;
     display: flex;
     flex-wrap: wrap;
-    column-gap: 159px;
-    row-gap: 65px;
     justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: auto;
+    align-items: stretch;
+    max-width: 1280px;
+    margin: 0 auto;
 
 }
 
 .footer_item{
-    row-gap: 40px;
+    
     display: flex;
     flex-direction: column;
-    padding-bottom: 43px;
+    justify-content: space-between;
+    margin: 16px 0 60px;
 }
 
 .footer_title{
@@ -515,6 +516,13 @@ footer{
 .footer_img{
     display: flex;
     align-self: flex-end;
+    font-weight: 400;
+}
+
+.footer_contact{
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .footer_way{
